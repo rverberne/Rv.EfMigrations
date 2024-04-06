@@ -69,3 +69,11 @@ dotnet ef migrations remove -v
 ```
 dotnet ef database drop
 ```
+
+### Creating a bundle
+
+A bundle is a exe that runs the migrations when executed.
+
+```
+dotnet ef migrations bundle --self-contained
+```
