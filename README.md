@@ -21,7 +21,7 @@ Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite
 ## Install tool:
 
 ```
-ddotnet tool install --global dotnet-ef
+dotnet tool install --global dotnet-ef
 ```
 
 ## Commands
